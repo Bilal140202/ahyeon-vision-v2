@@ -1,0 +1,49 @@
+name: Fan Wire — Add / Change / Improve
+description: File a moment, a correction, or an idea for the Ahyeon Icon Dossier. Fans welcome — every wire is reviewed.
+title: "[FAN WIRE] "
+labels: ["fan-wire"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Welcome, Hyeonie.** This is the open contribution line for the Ahyeon Icon Dossier
+        (Vol.2 preview site). Nothing auto-publishes — every wire is reviewed before it
+        enters the dossier. Give as much receipt as you can (dates, links, sources) and
+        you'll be credited if your wire is approved.
+
+  - type: dropdown
+    id: wire-type
+    attributes:
+      label: Type of wire
+      description: What kind of contribution is this?
+      options:
+        - "ADD — a new moment / fact / photo / video for the dossier"
+        - "CHANGE — fix a wrong or outdated detail on the site"
+        - "IMPROVE — design, copy, speed, accessibility or a new section idea"
+    validations:
+      required: true
+
+  - type: input
+    id: subject
+    attributes:
+      label: Subject — one line
+      description: Summarize the wire in a single sentence.
+      placeholder: "e.g. Her Feb 2026 Incheon departure look belongs in the Vault"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Everything we should know — dates, links, sources, which section of the site this touches.
+      placeholder: "Source links, exact dates, what it currently says vs what it should say…"
+    validations:
+      required: true
+
+  - type: input
+    id: credit
+    attributes:
+      label: Credit — optional
+      description: Name or @handle to credit in the dossier if your wire is approved.
+      placeholder: "e.g. @hyeoniedeb"
