@@ -14,10 +14,11 @@ this repo.
 ## Fan Wire — contribute
 
 Spotted a moment we missed, a detail to fix, or an idea for the site? Use the **FILE A FAN WIRE**
-button on the site. Wires are typed (ADD A MOMENT / CHANGE A DETAIL / IMPROVE THE SITE), delivered
-**privately to the archive desk's Telegram line**, reviewed wire by wire, and approved entries are
-folded into the dossier with the submitter credited (optional — leave the credit line blank to
-stay fully unsigned). Nothing auto-publishes; no GitHub account, email or sign-up is involved.
+button on the site. Wires are typed (ADD A MOMENT / CHANGE A DETAIL / IMPROVE THE SITE) and
+submitted **right there on the page** — they are delivered privately to the archive desk's line,
+reviewed wire by wire, and approved entries are folded into the dossier with the submitter
+credited (optional — leave the credit line blank to stay fully unsigned). Nothing auto-publishes;
+no account, email or sign-up is involved.
 
 ## For maintainers
 
